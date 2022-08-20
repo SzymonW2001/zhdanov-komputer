@@ -55,6 +55,15 @@ document.onkeydown = (e) => {
         game()
     }}
 
+    function gameStart(){
+        document.querySelector(".obj1").style.animationPlayState = "running"
+        document.querySelector(".obj2").style.animationPlayState = "running"
+
+            game()
+        }
+
+
+
 
 function game(){
     
